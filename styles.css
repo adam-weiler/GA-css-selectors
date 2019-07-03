@@ -20,7 +20,7 @@ header {
 }
 
 .item {
-    border: 1px solid black;
+    border: 2px solid cyan;
 }
 
 .even {
@@ -42,14 +42,14 @@ header {
 }
 
 /* Advanced Selectors */
-#advanced-selectors ol li {
+ol > li {
     padding: 20px;
     background-color: grey;
 }
 
-    #advanced-selectors ol li:nth-child(odd) {
-        background-color: green;
-    }
+ol > li:nth-child(odd) {
+    background-color: green;
+}
 
 a[title]:hover {
     text-decoration: none;
